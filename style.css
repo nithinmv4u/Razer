@@ -1,0 +1,140 @@
+body{
+    /* position: relative; */
+    background: #222222;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.icon-search{
+    color: grey;
+    /* padding: 0 10px 0 10px; */
+}
+.icon-cart{
+    color: grey;
+}
+.toggle{
+    background: white;
+}
+.order{
+    background: #555;
+    color: white;
+    text-align: center;
+}
+/* .grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+); */
+.banner1{
+    /* background-image: url("images/razer08.jpg"); */
+    height: 43em;
+    background-size: cover;
+    background-position-x: center;
+    color: white;
+    text-align: center;
+}
+.img-one{
+    background-image: url("images/razer08.jpg");
+}
+.img-two{
+    background-image: url("images/razer09.jpg");
+}
+.img-three{
+    background-image: url("images/razer10.jpg");
+}
+.banner1 a{
+    font-size: x-large;
+}
+@media (max-width: 576px){
+    .banner1{
+        height: 30em;
+    }
+    .banner1 h3{
+        font-size: medium;
+    }
+    .banner1 a{
+        font-size: smaller;
+    }
+    .order{
+        font-size: .6em;
+    }
+}
+@media (max-width:768px) and (min-width:576px){
+    .banner1{
+        height: 35em;
+    }
+    .banner1 h3{
+        font-size: large;
+    }
+    .banner1 a{
+        font-size: large;
+    }
+    .order{
+        font-size: .8em;
+    }
+}
+.tile1{
+    height: 43em;
+    background-size: cover;
+    background-position-x: center;
+    color: white;
+    text-align: center;
+}
+.tile-img1a{
+    background-image: url("images/razer11.jpg");
+}
+.tile-img1b{
+    background-image: url("images/razer13.jpg");
+}
+.tile-img2a{
+    background-image: url("images/razer15.jpg");
+}
+.tile-img2b{
+    background-image: url("images/razer17.jpg");
+}
+.tile-img3a{
+    background-image: url("images/razer19.jpg");
+}
+.tile-img3b{
+    background-image: url("images/razer21.jpg");
+}
+.foot1{
+    /* height: 25em; */
+    background: #111111;
+    /* color: white; */
+    /* line-height: 1.5em; */
+}
+.table1{
+}
+.social{
+    color: #44d62c;
+}
+.social i{
+    color: #44d62c;
+    font-size: xx-large;
+    padding: .2em;
+}
+.select-drop select{
+    border: 0;
+    border-radius: 0;
+    border-color: rgb(47, 46, 46);
+    font-size: small;
+}
+.select-drop footer{
+    border: 0;
+    border-radius: 0;
+    border-color: rgb(47, 46, 46);
+    font-size: small;
+}
+.country{
+    font-size: smaller;
+}
+.foot-last{
+    font-size: smaller;
+}
